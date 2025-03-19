@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Video</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans">
+    <header class="relative w-full h-screen">
+        <video class="absolute top-0 left-0 w-full h-full object-cover z-[-1]" autoplay loop muted playsinline>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40"></div>
+
+        <nav class="px-10 h-16 top-0 left-0 w-full flex items-center justify-between fixed bg-transparent z-20">
+            <img class="w-16 h-10 cursor-pointer" src="logo.jpg" alt="Logo">
+            <ul class="flex space-x-6">
+                <li><a href="#"
+                        class="text-white font-semibold rounded-lg px-4 py-[4px] hover:bg-white hover:text-black transition duration-500">Home</a>
+                </li>
+                <li><a href="#"
+                        class="text-white font-semibold rounded-lg px-4 py-[4px] hover:bg-white hover:text-black transition duration-500">About
+                        us</a>
+                </li>
+                <li><a href="#"
+                        class="text-white font-semibold rounded-lg px-4 py-[4px] hover:bg-white hover:text-black transition duration-500">Services</a>
+                </li>
+                <li><a href="#"
+                        class="text-white font-semibold rounded-lg px-4 py-[4px] hover:bg-white hover:text-black transition duration-500">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
+            <h1 class="text-5xl font-medium">Tech is Future</h1>
+            <button
+                class="mt-5 px-8 py-4 text-lg font-semibold text-black bg-white rounded-full hover:bg-blue-500 hover:text-white transition duration-500">Get
+                Started</button>
+        </div>
+    </header>
+
+    <section class="p-10">
+        <p class="text-lg text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repellat sequi
+            voluptatibus culpa nisi voluptate explicabo obcaecati ipsam earum dolore qui labore possimus repellendus
+            reiciendis totam quia illo itaque esse enim, asperiores libero. Aut sunt esse asperiores tenetur unde
+            impedit cum, quasi vero amet reiciendis eius modi praesentium, at architecto.</p>
+        <ul class="mt-4 space-y-2">
+            <li class="text-gray-800">Lorem ipsum dolor sit amet.</li>
+            <li class="text-gray-800">Lorem ipsum dolor sit amet.</li>
+            <li class="text-gray-800">Lorem ipsum dolor sit amet.</li>
+            <li class="text-gray-800">Lorem ipsum dolor sit amet.</li>
+            <li class="text-gray-800">Lorem ipsum dolor sit amet.</li>
+            <li class="text-gray-800">Lorem ipsum dolor sit amet.</li>
+            <li class="text-gray-800">Lorem ipsum dolor sit amet.</li>
+            <li class="text-gray-800">Lorem ipsum dolor sit amet.</li>
+            <li class="text-gray-800">Lorem ipsum dolor sit amet.</li>
+            <li class="text-gray-800">Lorem ipsum dolor sit amet.</li>
+        </ul>
+    </section>
+</body>
+
+</html>
